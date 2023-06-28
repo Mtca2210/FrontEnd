@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="stylesheet"href=ccsnav.css">
+<body bgcolor=skyblue><!DOCTYPE html>
+<div class="navbar">
+<div class="dropdown">
+<button class="dropbtn">Home</button>
+<div class="dropdown-content">
+<a href="#">Hom1</a>
+<a href="#">Home2</a>
+<a href="#">Home3</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Frames</button>
+<div class="dropdown-content">
+<a href="Verticalframe.html">Vertical </a>
+<a href="Horizontalframe.html">Horizontal</a>
+<a href="Mixedframe.html">Mixed</a>
+<a href="Customizedframe.html">Customized</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Table</button>
+<div class="dropdown-content">
+<a href="Simpletable.html">Simple</a>
+<a href="Complextable.html">Complex</a>
+<a href="Customizedtable.html">Customized</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">List</button>
+<div class="dropdown-content">
+<a href="Ordered List.html">Ordered List</a>
+<a href="#">Unordered List</a>
+<a href="#">Description List</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">CSS</button>
+<div class="dropdown-content">
+<a href="#">CSS1 </a>
+<a href="#">CSS2</a>
+<a href="#">CSS3</a>
+</div>
+</div>
+<div  class="login" >
+<a href="Create Account 1.html">Login</a>
+</div>
+</div>
+<meta name="viewpoint"content="width=device-width,initial-scale=1">
+<style>
+.container{
+position:relative;
+width:50%;
+}
+.image{
+display: block;
+width: 100%;
+height: auto;
+.overlay{
+posityion:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+height: 100%;
+width:  100%;
+opacity: 0;
+transition: .5s ease;
+backgroubd-color:#008CBA;
+}
+.container.hover  .overlay{
+opacity:1;
+}
+.text{
+color:white;
+font size:20px;
+position:absolue;
+top:50%;
+left:50%;
+-webkit-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+transform:translate(-50%,-50%);
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>Fade in Overlay</h2>
+<p>hover the image to see the effect.</p>
+<div class="container">
+<img src="Guitar.img" alt="Avatar" class="image">
+</div>
+</body>
+</html>
